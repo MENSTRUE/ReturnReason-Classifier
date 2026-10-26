@@ -1,42 +1,192 @@
-﻿# Python
+﻿# ============================================================
+# RETURNREASON CLASSIFIER — DAY 19
+# Python | IndoBERT | Hugging Face | FastAPI | React
+# ============================================================
+
+# ============================================================
+# 1. PYTHON
+# ============================================================
 __pycache__/
 *.py[cod]
+*$py.class
+
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+
+*.egg-info/
+*.egg
+build/
+site/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# ============================================================
+# 2. VIRTUAL ENVIRONMENTS
+# ============================================================
 .venv/
 venv/
+env/
+ENV/
+.python-version
 
-# Environment
+# ============================================================
+# 3. ENVIRONMENT VARIABLES & SECRETS
+# ============================================================
 .env
 .env.*
 !.env.example
 
-# Node
-node_modules/
-dist/
-.vite/
-coverage/
+*.pem
+*.key
+*.secret
+secrets.json
 
-# ML outputs
+# ============================================================
+# 4. MACHINE LEARNING MODEL WEIGHTS
+# ============================================================
 *.joblib
 *.pkl
-*.onnx
+*.pickle
+
 *.pt
 *.pth
+*.ckpt
+*.bin
+*.safetensors
 
-# Raw datasets
+*.onnx
+*.h5
+*.hdf5
+*.keras
+*.tflite
+*.gguf
+
+# Keep model configurations and tokenizer metadata
+!models/**/*.json
+!models/**/*.txt
+
+# ============================================================
+# 5. HUGGING FACE & TRANSFORMERS
+# ============================================================
+.cache/
+.cache/huggingface/
+huggingface/
+hf_cache/
+
+checkpoint-*/
+**/checkpoint-*/
+
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# ============================================================
+# 6. EXPERIMENT TRACKING
+# ============================================================
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
+
+# ============================================================
+# 7. KAGGLE / NOTEBOOK
+# ============================================================
+.ipynb_checkpoints/
+kaggle/working/
+
+# Keep notebook source files (*.ipynb)
+# Keep research reports and plots
+
+# ============================================================
+# 8. DATASETS
+# ============================================================
 data/raw/*
 data/interim/*
 data/processed/*
+
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 
-# Private files
+datasets/
+data/external/
+
+*.parquet
+*.arrow
+*.feather
+*.sqlite
+*.db
+
+# ============================================================
+# 9. FRONTEND — NODE / REACT / VITE
+# ============================================================
+node_modules/
+dist/
+.vite/
+.next/
+.nuxt/
+out/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+*.tsbuildinfo
+
+# ============================================================
+# 10. BACKEND — FASTAPI
+# ============================================================
 uploads/
+temp/
+tmp/
+logs/
 *.log
 
-# System
+# ============================================================
+# 11. USER DATA & PRIVATE FILES
+# ============================================================
+*.csv.bak
+*.json.bak
+*.tmp
+*.temp
+
+# ============================================================
+# 12. IDE / EDITOR
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# 13. OS GENERATED FILES
+# ============================================================
 .DS_Store
 Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# 14. KEEP PROJECT DOCUMENTATION
+# ============================================================
+!README.md
+!AGENTS.md
+!LICENSE
+!docs/**/*.md
+
+# ============================================================
+# 15. KEEP EMPTY DIRECTORY PLACEHOLDERS
+# ============================================================
+!.gitkeep
