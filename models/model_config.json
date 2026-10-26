@@ -1,0 +1,43 @@
+{
+  "project": "ReturnReason Classifier",
+  "version": "full-master-v3",
+  "model_type": "huggingface_transformer",
+  "model_file": "indobert/",
+  "selected_model": "indobenchmark/indobert-base-p1",
+  "classes": [
+    "defect",
+    "late_delivery",
+    "missing_item",
+    "size",
+    "wrong_item"
+  ],
+  "language": "Indonesian, experimental",
+  "input_schema": {
+    "text": "nonempty UTF-8 string"
+  },
+  "output_schema": {
+    "predicted_reason": [
+      "defect",
+      "late_delivery",
+      "missing_item",
+      "size",
+      "wrong_item"
+    ],
+    "confidence_is_calibrated": false,
+    "manual_review_required": true
+  },
+  "not_trained_on": [
+    "Return Abuse categorical reason as self-labeled text",
+    "SEA external heldout",
+    "human verified evaluation"
+  ],
+  "human_verified_test_rows": 0,
+  "human_verified_performance_validated": false,
+  "cautions": [
+    "Synthetic template training",
+    "No real-world performance claim without independently annotated gold",
+    "No other/reject learned class",
+    "SVM margins are NOT probabilities",
+    "SEA external only 34 samples/3 observed classes"
+  ]
+}
