@@ -1,0 +1,46 @@
+ .gitignore                                         |   174 [32m+[m[31m-[m
+ assets/plots/.gitkeep                              |     0
+ .../SEA_ID_synthetic_external_confusion_matrix.png |   Bin [31m64119[m -> [32m0[m bytes
+ .../synthetic_family_heldout_confusion_matrix.png  |   Bin [31m66097[m -> [32m0[m bytes
+ backend/app/api/.gitkeep                           |     0
+ backend/app/api/routes.py                          |    17 [31m-[m
+ backend/app/core/.gitkeep                          |     0
+ backend/app/core/settings.py                       |    10 [31m-[m
+ backend/app/main.py                                |     7 [31m-[m
+ backend/app/schemas/.gitkeep                       |     0
+ backend/app/schemas/prediction.py                  |     5 [31m-[m
+ backend/app/services/.gitkeep                      |     0
+ backend/app/services/classifier.py                 |    75 [31m-[m
+ backend/requirements.txt                           |     9 [31m-[m
+ backend/tests/.gitkeep                             |     0
+ backend/tests/__init__.py                          |     0
+ backend/tests/test_api.py                          |    26 [31m-[m
+ exports/demo_predictions.csv                       |     9 [31m-[m
+ exports/real_return_annotations_TEMPLATE.csv       |     3 [31m-[m
+ frontend/.env.example                              |     1 [31m-[m
+ frontend/index.html                                |     1 [31m-[m
+ frontend/package.json                              |    23 [31m-[m
+ frontend/src/App.tsx                               |    14 [31m-[m
+ frontend/src/components/.gitkeep                   |     0
+ frontend/src/main.tsx                              |     1 [31m-[m
+ frontend/src/pages/.gitkeep                        |     0
+ frontend/src/services/.gitkeep                     |     0
+ frontend/src/styles.css                            |     2 [31m-[m
+ frontend/src/styles/.gitkeep                       |     0
+ frontend/tsconfig.json                             |     1 [31m-[m
+ frontend/vite.config.ts                            |     3 [31m-[m
+ models/indobert/config.json                        |    58 [31m-[m
+ models/indobert/tokenizer.json                     | 30676 [31m-------------------[m
+ models/indobert/tokenizer_config.json              |    15 [31m-[m
+ models/model_config.json                           |    43 [31m-[m
+ notebooks/returnreason-classifier.ipynb            |     1 [31m-[m
+ reports/SEA_ID_synthetic_external_metrics.json     |    56 [31m-[m
+ reports/final_summary.json                         |    37 [31m-[m
+ reports/indobert_status.json                       |     8 [31m-[m
+ reports/indobert_training_history.csv              |     4 [31m-[m
+ reports/model_comparison.csv                       |     6 [31m-[m
+ reports/release_checksums.json                     |    20 [31m-[m
+ reports/split_class_counts.csv                     |     4 [31m-[m
+ reports/synthetic_family_heldout_metrics.json      |    58 [31m-[m
+ reports/synthetic_generation_contract.json         |    18 [31m-[m
+ 45 files changed, 12 insertions(+), 31373 deletions(-)
