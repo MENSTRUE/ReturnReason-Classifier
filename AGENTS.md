@@ -133,3 +133,8 @@ P0 human-gold corpus + provenance/annotation agreement; P1 multi-intent/out-of-s
 **Can I publish screenshots from this chat as if committed?** No; the user must add the real images to the tracked assets directory.
 
 **Can I auto-commit?** No. Only after explicit authorization.
+
+
+## Documentation sync contract
+
+When any API, model, dataset, metric, UI behavior, or deployment claim changes, update relevant sections in `README.md`, `docs/id/*.md`, `docs/en/*.md`, `backend/README.md`, and `frontend/README.md`; preserve parity in facts. Screenshot evidence resides at `assets/screenshots/` and must be linked only if an actual file exists. Do not promote manual screenshots to population metrics. Do not change the source-of-truth research numbers without matching report artifacts.

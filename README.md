@@ -308,3 +308,18 @@ The repository contains an **MIT LICENSE** for original code (copyright 2026 Waf
 ## 16. Maintainer and source-of-truth policy
 
 Maintained as a learning/research portfolio project in the 100 Days of Projects series. For future updates, read **`AGENTS.md`** first. The hierarchy of evidence is: actual code and tracked files → machine-generated `reports/*.json` / plots → executed notebook → dated test logs → README narrative. When they disagree, investigate rather than silently editing the metrics. Preserve failed examples and known limitations. No metric, file, model capability or successful test may be claimed without corresponding evidence.
+
+
+## Bilingual documentation pack and visual evidence
+
+For dedicated topic documents, start at [docs/README.md](docs/README.md), [Bahasa Indonesia](docs/id/README.md), or [English](docs/en/README.md). Both languages cover architecture, dataset provenance, evaluation, claim boundaries, reproducibility, deployment, roadmap, and troubleshooting/FAQ.
+
+The screenshots in [assets/screenshots/](assets/screenshots/) are manual UI observations, **not** a customer test set. See [screenshot evidence index](assets/screenshots/README.md).
+
+![ReturnReason dashboard](assets/screenshots/00-dashboard-empty.png)
+
+Experimental plots committed in the existing repository:
+
+![Synthetic-family held-out confusion matrix](assets/plots/synthetic_family_heldout_confusion_matrix.png)
+
+![SEA-ID synthetic external confusion matrix](assets/plots/SEA_ID_synthetic_external_confusion_matrix.png)
