@@ -1,0 +1,9 @@
+text,predicted_reason,expected_if_unambiguous,needs_human_review
+"Sepatu ini kekecilan, saya mau retur",size,size,True
+Ukuran kaosnya kebesaran dan tidak muat,size,size,True
+Lampunya rusak dan tidak bisa dinyalakan,defect,defect,True
+Saya pesan warna hitam tetapi dapat putih,size,wrong_item,True
+Paket sudah sampai tetapi charger tidak ada di dalamnya,missing_item,missing_item,True
+Barang tiba tiga hari melewati estimasi,late_delivery,late_delivery,True
+"Paket belum diterima sampai sekarang, entah hilang atau terlambat",missing_item,,True
+Saya mau tanya ongkir saja,missing_item,,True
