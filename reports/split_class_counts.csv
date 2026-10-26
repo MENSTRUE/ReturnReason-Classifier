@@ -1,0 +1,4 @@
+split,defect,late_delivery,missing_item,size,wrong_item
+test,48,48,48,48,48
+train,168,168,168,168,168
+validation,24,24,24,24,24

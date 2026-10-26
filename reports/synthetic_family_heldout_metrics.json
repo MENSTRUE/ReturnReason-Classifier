@@ -1,0 +1,58 @@
+{
+  "split": "synthetic_family_heldout",
+  "rows": 240,
+  "accuracy": 0.9541666666666667,
+  "macro_f1_all_five": 0.9533565856585658,
+  "support": {
+    "defect": 48,
+    "wrong_item": 48,
+    "missing_item": 48,
+    "late_delivery": 48,
+    "size": 48
+  },
+  "classification_report": {
+    "defect": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 48.0
+    },
+    "late_delivery": {
+      "precision": 0.9411764705882353,
+      "recall": 1.0,
+      "f1-score": 0.9696969696969697,
+      "support": 48.0
+    },
+    "missing_item": {
+      "precision": 0.9375,
+      "recall": 0.9375,
+      "f1-score": 0.9375,
+      "support": 48.0
+    },
+    "size": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 48.0
+    },
+    "wrong_item": {
+      "precision": 0.9056603773584906,
+      "recall": 1.0,
+      "f1-score": 0.9504950495049505,
+      "support": 48.0
+    },
+    "accuracy": 0.9541666666666667,
+    "macro avg": {
+      "precision": 0.9568673695893452,
+      "recall": 0.9541666666666668,
+      "f1-score": 0.9533565856585658,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.9568673695893452,
+      "recall": 0.9541666666666667,
+      "f1-score": 0.9533565856585658,
+      "support": 240.0
+    }
+  }
+}

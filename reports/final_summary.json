@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "bitext": {
+      "path": "/kaggle/input/datasets/wafabila/returnreason-classifier-multi-source-dataset/bitext-retail/bitext-retail-ecommerce-llm-chatbot-training-dataset.csv",
+      "rows": 44884
+    },
+    "return_abuse": {
+      "path": "/kaggle/input/datasets/wafabila/returnreason-classifier-multi-source-dataset/ecommerce-returns/ecommerce_return_abuse_dataset.csv",
+      "rows": 60000
+    },
+    "sea": {
+      "path": "/kaggle/input/datasets/wafabila/returnreason-classifier-multi-source-dataset/return-reasons-id/data.csv",
+      "rows": 1000
+    }
+  },
+  "n_generated_synthetic": 1200,
+  "n_synthetic_train": 840,
+  "n_bitext_proxy_training": 3629,
+  "n_synthetic_validation": 120,
+  "n_synthetic_test": 240,
+  "n_sea_id_external": 34,
+  "n_human_verified_gold": 0,
+  "model_selected": "indobenchmark/indobert-base-p1",
+  "model_type": "huggingface_transformer",
+  "synthetic_family_heldout": {
+    "rows": 240,
+    "accuracy": 0.9541666666666667,
+    "macro_f1_all_five": 0.9533565856585658
+  },
+  "sea_id_synthetic_external": {
+    "rows": 34,
+    "accuracy": 0.7352941176470589,
+    "macro_f1_all_five": 0.4888888888888888
+  },
+  "real_customer_metrics": "unavailable",
+  "claims": "Research prototype only; no proven real-customer classification quality."
+}

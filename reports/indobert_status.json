@@ -1,0 +1,8 @@
+{
+  "requested": true,
+  "completed": true,
+  "reason": null,
+  "validation_macro_f1": 1.0,
+  "epochs": 3,
+  "selected_for_release": true
+}

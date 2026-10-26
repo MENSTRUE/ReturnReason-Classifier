@@ -1,0 +1,56 @@
+{
+  "split": "SEA_ID_synthetic_external",
+  "rows": 34,
+  "accuracy": 0.7352941176470589,
+  "macro_f1_all_five": 0.4888888888888888,
+  "support": {
+    "late_delivery": 15,
+    "defect": 10,
+    "wrong_item": 9
+  },
+  "classification_report": {
+    "defect": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 10.0
+    },
+    "late_delivery": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 15.0
+    },
+    "missing_item": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "size": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "wrong_item": {
+      "precision": 0.8333333333333334,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.6666666666666666,
+      "support": 9.0
+    },
+    "accuracy": 0.7352941176470589,
+    "macro avg": {
+      "precision": 0.5666666666666667,
+      "recall": 0.43111111111111117,
+      "f1-score": 0.4888888888888888,
+      "support": 34.0
+    },
+    "weighted avg": {
+      "precision": 0.9558823529411765,
+      "recall": 0.7352941176470589,
+      "f1-score": 0.8300653594771241,
+      "support": 34.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "provenance": "Manually authored 50 semantic templates, programmatically varied items/endings; not real customer annotations",
+  "seed": 42,
+  "classes": [
+    "defect",
+    "wrong_item",
+    "missing_item",
+    "late_delivery",
+    "size"
+  ],
+  "families_per_class": 10,
+  "n_rows": 1200,
+  "limitations": [
+    "Lexical overlap across template families",
+    "Synthetic holdout is not real-world evaluation",
+    "Template-derived labels are not independently annotated"
+  ]
+}

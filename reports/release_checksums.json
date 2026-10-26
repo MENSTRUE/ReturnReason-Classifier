@@ -1,0 +1,20 @@
+{
+  "models/model_config.json": "2aa771b848c762257e7fe6b3d8fabc74a89267aa8b58ec4dd77aa94025c9f5c4",
+  "models/indobert/model.safetensors": "34ce96a428cf0f6e7168f38ad8e8c6b3dcb1097ca0aef78b51eaab7af6f2514b",
+  "models/indobert/tokenizer.json": "841a770ff16c7158c642aaf3bf3ed1b57865e260ce7fd46980aa6d91e86d7aaa",
+  "models/indobert/tokenizer_config.json": "9f0c2c65a70ea18113ffa2e717103e7210ea826e7acc3442b69b346686b55a48",
+  "models/indobert/config.json": "eff07b49dff20452764fadc0e52df5fd6c28ea4e3c66886623c18ec8d8a10c24",
+  "reports/synthetic_family_heldout_metrics.json": "498d27709862a27a7df270966daa3d1bbb42f22e29d2d7a0b714099446c5efe8",
+  "reports/synthetic_generation_contract.json": "e704a9fdcfe126c8340da32c75f2c84696681568e8f0a7c6dd039b05cd93460f",
+  "reports/indobert_training_history.csv": "803bc322888f37e36d2dbcc2a206f844fef15c83b345727efa0831191619a8d2",
+  "reports/SEA_ID_synthetic_external_metrics.json": "9e9e4d7f554933c71df5968aea038a5e21ec62c1767e7513fbf8b33a17f7404c",
+  "reports/model_comparison.csv": "d4961e15f464f4e75e50e49753158ac42526ef79e5bc011831489ae611b0042b",
+  "reports/indobert_status.json": "7fc73330af03d58584fb9ef8ee544a74ebce4ae4b84a6ed6b3bab751a07736e6",
+  "reports/split_class_counts.csv": "ec314f5bca03c2d7d8a5b9e9028c5b75ad74ee66f6dce226be95d5b13d99c32a",
+  "reports/final_summary.json": "65121c57e84c659cbc5d5dc435b99527ec13fb048832f003443362a3cd9e543b",
+  "assets/plots/synthetic_family_heldout_confusion_matrix.png": "577d0c482f6787185a5dee74694ab789a9c9d4ebe34d449baa8fef7b21ef41b5",
+  "assets/plots/SEA_ID_synthetic_external_confusion_matrix.png": "d6b2cabd29a9152adda8b9629018af79f6640e3b797aff976e01cf82603f45e8",
+  "README.md": "8f349a80beb444f47cbbd881ef234282f6a4f71a6548865fe6bc2a4fafd0884d",
+  "exports/demo_predictions.csv": "72cda67259448638c541a8c8efbe5488649faed8b748daac95dfca88f64dd8ac",
+  "exports/real_return_annotations_TEMPLATE.csv": "7f693beb6c6d47b2c2ae3c0abca370b993e112a50b15e59f06193e2f17489c28"
+}
